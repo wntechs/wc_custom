@@ -289,6 +289,6 @@ class MohitTest
 
 
 }
-
+define('MOHIT_TEST_VERSION', '1.00');
 $mohit_plugin = new MohitTest();
 $mohit_plugin->init_test();

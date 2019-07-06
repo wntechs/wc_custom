@@ -143,7 +143,7 @@ class MohitTest
 
 
 
-    /*WordPress Menus API.*/
+
     function add_menu_items()
     {
         //add a new menu item. This is a top level menu item i.e., this menu item can have sub menus
@@ -204,7 +204,7 @@ class MohitTest
 
     function display_product_title_form_element()
     {
-        //id and name of form element should be same as the setting name.
+
         ?>
         <input type="text" name="product_title_prefix" id="product_title_prefix"
                value="<?php echo get_option('product_title_prefix'); ?>"/>
